@@ -1,8 +1,5 @@
-import AppHeader from './components/AppHeader'
 import ReactDOM from 'react-dom'
 import React from 'react'
+import App from './components/App'
 
-ReactDOM.render(
-  <AppHeader title="Hello world" />,
-  document.querySelector('#root')
-)
+ReactDOM.render(<App />, document.querySelector('#root'))
